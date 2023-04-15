@@ -1,3 +1,12 @@
+		++++===<| Update 21 Audio Gaming |>===++++
+
+* In case someone missed that last update, we now have audio!
+
+	=== Bugfixes ===
+
+* Fixed a bug where message boxs could be moved under peculiar circumstances.
+
+
 		++++===<| Update 20 Door Gaming |>===++++
 
 * Added the finished models and textures to Anti-Magic Barriers, Techie Consoles, and sublevel exits.
