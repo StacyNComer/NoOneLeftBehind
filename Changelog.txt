@@ -1,3 +1,31 @@
+		++++===<| Update 23 Quick Fix Gaming |>===++++
+
+		=== Bugfixes ===
+
+* Fixed a bug where the interactable outlines and ghost enchantment silhouettes where not visible.
+
+* Fixed a bug where message boxes could not be interacted with.
+
+* Fixed the Witches flying working incorrectly (assuming Muriel wan't just mad at me in particular)
+
+* Fixed a bug where level music would not play.
+
+		!!!! Known Issues !!!!
+
+* Player Characters go through crates that are held by other characters.
+	# I'm putting this one on the backburner since this interaction isn't really intrusive to gameplay.
+
+* Crates get launched unusually high when a moving platform lifts them.
+
+* Percival's box levitation is still stiff. Also, rotating while pulling a crate toward you also rotates the crate.
+
+* For some reason the character message adjusts itself when shown for the first time, causing the text to flicker.
+
+* Characters appear to be standing on nothing when standing on Liftable Jump Pads. Animation while walking on them is generally
+  awkward. I *think* this is just cosmetic since the offending collider isn't suppose to effect anything other than linetraces.
+	# This one ain't getting fixed until after Fractal, if at all, since Jump Pads won't be in the Fractal release.
+
+
 		++++===<| Update 22 Fear the Light Gaming |>===++++
 
 * Lighting added!
