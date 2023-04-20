@@ -1,3 +1,31 @@
+
+		++++===<| Update 25 Tweak Gaming |>===++++
+
+* Sublevels are now entered by interacting with the door in the loading airlock, just like the level exits.
+	* There is a message box about this in M1S1.
+	* Interacting with an exit door without all of the characters being in the loading airlock triggers a message saying that
+	   all characters must be in the exit.
+
+* The boundaries of loading airlocks have been expanded. Characters near the airlock doors should now count as being within level
+   exits.
+
+* Extended the interact range of all characters by 100 units.
+
+* Secrets now show a message when collected by the player.
+
+* Glass (but not the transparent moving platforms) is more transparent and should look more like something is there.
+
+* Added solid trims to the transparent moving walls in M2S2.
+	# The lights next to the "doors" made it difficult to tell their color. This is temporary until the lighting gets an edit!
+
+		=== Bugfixes ===
+
+* Techie consoles are now correctly coded based on what they activate.
+
+* The blue button in M2S2 is now a toggle button.
+	# I trust the player not to get themselves stuck!
+
+
 		++++===<| Update 24 Luminous Gaming |>===++++
 
 * Ported in lighting updates.
