@@ -1,3 +1,41 @@
+		++++===<| Update 26 Fractal Gaming |>===++++
+
+* Turned off motion blur for character cameras.
+	# This should vastly improve performance. Also, the game no longers turns into a blurry mess when you move the camera.
+	# If there are anymore performance issues, lowering the graphics quality *should* help.
+
+* Ported in some lighting edits.
+
+* Cauldrons now have a proper model.
+	# The cauldron model doesn't seem to import into UE5 correctly, so I just made a look-alike material.
+
+* The crate in M2S3 now spawns on platform: The player can no longer solve the puzzle by respawning the crate while Bruno is on
+   the purple button.
+	# I don't mind a puzzle having multiple solutions, but this solution makes the antimagic barrier being able to be disabled
+	   appear as a red herring. I suspect it might make puzzles frustrating to solve if players cannot trust a particular
+	   puzzle element (This being buttons/crates/etc.) to be a part of the puzzle.
+
+* Removed the walking sound since it was impossible to sync and had a bug.
+
+		=== Bugfixes ===
+
+* Fixed the floor beneath the red door in M2S3 not loading properly.
+
+		!!!! Known Issues !!!!
+
+* Player Characters go through crates that are held by other characters.
+	# I'm putting this one on the backburner since this interaction isn't really intrusive to gameplay.
+
+* Crates get launched unusually high when a moving platform lifts them.
+
+* Percival's box levitation is still stiff. Also, rotating while pulling a crate toward you also rotates the crate.
+
+* For some reason the character message adjusts itself when shown for the first time, causing the text to flicker.
+
+* Characters appear to be standing on nothing when standing on Liftable Jump Pads. Animation while walking on them is generally
+  awkward. I *think* this is just cosmetic since the offending collider isn't suppose to effect anything other than linetraces.
+	# This one ain't getting fixed until after Fractal, if at all, since Jump Pads won't be in the Fractal release.
+
 
 		++++===<| Update 25 Tweak Gaming |>===++++
 
