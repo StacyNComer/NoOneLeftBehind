@@ -1,3 +1,34 @@
+		++++===<| Update 27 Gucci Wheelchair Gaming |>===++++
+
+* The Techie's model and most of his animations have been imported an implemented in all of its Guchi Wheelchair glory.
+	# The hacking animation hasn't been implemented yet. I released this update early to show off!
+
+* M1S3: Replaced the ramp to exit area in the left room with a raised platform.
+	# This was intended to be a red hering of sorts, but I fear in reality that it may be frustrating to fixate on using the Techie
+	    to reach the exit from the left room only to realize that this was something they never needed to do in the first place.
+	    I just moved the ramps outside of the level, in case I change my mind.
+
+* Finally deleted the "Press Q to Swap Characters" text in M1S2.
+
+		!!!! Known Issues !!!!
+
+* Toggled buttons/switches do no work properly if more than one is in a sublevel (Namely, the blue elevator in M2S3).
+
+* Player Characters go through crates that are held by other characters.
+	# I'm putting this one on the backburner since this interaction isn't really intrusive to gameplay.
+
+* Crates get launched unusually high when a moving platform lifts them.
+
+* Percival's box levitation is still stiff. Also, rotating while pulling a crate toward you also rotates the crate.
+
+* For some reason the character message adjusts itself when shown for the first time, causing the text to flicker.
+
+* Characters appear to be standing on nothing when standing on Liftable Jump Pads. Animation while walking on them is generally
+  awkward. I *think* this is just cosmetic since the offending collider isn't suppose to effect anything other than linetraces.
+	# This one ain't getting fixed until after Fractal, if at all, since Jump Pads won't be in the Fractal release.
+
+
+
 		++++===<| Update 26 Fractal Gaming |>===++++
 
 * Turned off motion blur for character cameras.

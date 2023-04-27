@@ -92,7 +92,7 @@
  Room 1 -> There's a red switch that opens the door upstairs in the room you start in. 
 	   
 	   In the proceeding area, there is a blue button along the right side of the wall, a green button on the left side, and an 
-                 orange button directly ahead of you. Rressing all of them will open up the room's exit.
+                 orange button directly ahead of you. Pressing all of them will open up the room's exit.
 
 Room 2 -> The other two characters start trapped and must be freed by the Muriel. After crossing the gap into the main area,
 	  press the white button to spawn a crate you'll need later (As a reminder, Muriel refuses to pick up crates). Then, fly
